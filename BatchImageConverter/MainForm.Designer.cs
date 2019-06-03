@@ -57,9 +57,8 @@
             this.ConversionTypeControl.HideLabel = false;
             this.ConversionTypeControl.LabelBottomMargin = 0;
             this.ConversionTypeControl.LabelColor = System.Drawing.Color.LemonChiffon;
-            this.ConversionTypeControl.LabelFont = null;
+            this.ConversionTypeControl.LabelFont = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConversionTypeControl.LabelText = "Type:";
-            this.ConversionTypeControl.LabelTextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.ConversionTypeControl.LabelTopMargin = 0;
             this.ConversionTypeControl.LabelWidth = 160;
             this.ConversionTypeControl.List = null;
@@ -78,16 +77,33 @@
             this.DirectoryControl.BrowseType = DataJuggler.Win.Controls.Enumerations.BrowseTypeEnum.Folder;
             this.DirectoryControl.ButtonImage = ((System.Drawing.Image)(resources.GetObject("DirectoryControl.ButtonImage")));
             this.DirectoryControl.ButtonWidth = 48;
+            this.DirectoryControl.DisabledLabelColor = System.Drawing.Color.DarkGray;
+            this.DirectoryControl.Editable = false;
+            this.DirectoryControl.EnabledLabelColor = System.Drawing.Color.Black;
             this.DirectoryControl.Filter = null;
+            this.DirectoryControl.Font = new System.Drawing.Font("Verdana", 12F);
             this.DirectoryControl.ForeColor = System.Drawing.Color.LemonChiffon;
             this.DirectoryControl.HideBrowseButton = false;
+            this.DirectoryControl.LabelBottomMargin = 0;
+            this.DirectoryControl.LabelColor = System.Drawing.Color.LemonChiffon;
+            this.DirectoryControl.LabelFont = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DirectoryControl.LabelText = "Source Folder:";
+            this.DirectoryControl.LabelTopMargin = 0;
+            this.DirectoryControl.LabelWidth = 140;
             this.DirectoryControl.Location = new System.Drawing.Point(61, 28);
             this.DirectoryControl.Name = "DirectoryControl";
+            this.DirectoryControl.OnTextChangedListener = null;
             this.DirectoryControl.OpenCallback = null;
+            this.DirectoryControl.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.DirectoryControl.SelectedPath = null;
             this.DirectoryControl.Size = new System.Drawing.Size(927, 32);
             this.DirectoryControl.StartPath = null;
             this.DirectoryControl.TabIndex = 1;
+            this.DirectoryControl.TextBoxBottomMargin = 0;
+            this.DirectoryControl.TextBoxDisabledColor = System.Drawing.Color.Empty;
+            this.DirectoryControl.TextBoxEditableColor = System.Drawing.Color.Empty;
+            this.DirectoryControl.TextBoxFont = null;
+            this.DirectoryControl.TextBoxTopMargin = 0;
             // 
             // ResolutionControl
             // 
@@ -99,9 +115,8 @@
             this.ResolutionControl.ForeColor = System.Drawing.Color.LemonChiffon;
             this.ResolutionControl.LabelBottomMargin = 0;
             this.ResolutionControl.LabelColor = System.Drawing.Color.LemonChiffon;
-            this.ResolutionControl.LabelFont = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular);
+            this.ResolutionControl.LabelFont = new System.Drawing.Font("Verdana", 12F);
             this.ResolutionControl.LabelText = "Resolution:";
-            this.ResolutionControl.LabelTextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.ResolutionControl.LabelTopMargin = 0;
             this.ResolutionControl.LabelWidth = 160;
             this.ResolutionControl.Location = new System.Drawing.Point(61, 119);
@@ -112,7 +127,6 @@
             this.ResolutionControl.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.ResolutionControl.Size = new System.Drawing.Size(360, 32);
             this.ResolutionControl.TabIndex = 2;
-            this.ResolutionControl.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.ResolutionControl.TextBoxBottomMargin = 0;
             this.ResolutionControl.TextBoxDisabledColor = System.Drawing.Color.LightGray;
             this.ResolutionControl.TextBoxEditableColor = System.Drawing.Color.White;
@@ -130,9 +144,8 @@
             this.MoveSourceCheckBox.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MoveSourceCheckBox.ForeColor = System.Drawing.Color.LemonChiffon;
             this.MoveSourceCheckBox.LabelColor = System.Drawing.Color.LemonChiffon;
-            this.MoveSourceCheckBox.LabelFont = null;
+            this.MoveSourceCheckBox.LabelFont = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MoveSourceCheckBox.LabelText = "Move Source:";
-            this.MoveSourceCheckBox.LabelTextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.MoveSourceCheckBox.LabelWidth = 160;
             this.MoveSourceCheckBox.Location = new System.Drawing.Point(61, 160);
             this.MoveSourceCheckBox.Name = "MoveSourceCheckBox";
@@ -226,9 +239,8 @@
             this.OutputOptionControl.HideLabel = false;
             this.OutputOptionControl.LabelBottomMargin = 0;
             this.OutputOptionControl.LabelColor = System.Drawing.Color.LemonChiffon;
-            this.OutputOptionControl.LabelFont = null;
+            this.OutputOptionControl.LabelFont = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OutputOptionControl.LabelText = "Output:";
-            this.OutputOptionControl.LabelTextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.OutputOptionControl.LabelTopMargin = 0;
             this.OutputOptionControl.LabelWidth = 160;
             this.OutputOptionControl.List = null;
